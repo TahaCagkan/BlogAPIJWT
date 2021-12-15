@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogJWT.Core\BlogJWT.Core.csproj" />
+    <ProjectReference Include="..\BlogJWT.DAL\BlogJWT.DAL.csproj" />
+    <ProjectReference Include="..\BlogJWT.DTO\BlogJWT.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
